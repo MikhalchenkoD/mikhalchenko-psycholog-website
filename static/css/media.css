@@ -1,0 +1,240 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        max-width: 925px;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .header_nav .nav_item:not(:last-child) {
+        margin-right: 48px;
+    }
+
+    .hero_content .content_title {
+        margin-bottom: 20px;
+        font-size: 48px;
+    }
+
+    .hero_content .content_descr {
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    .hero_content {
+        padding: 50px 50px;
+    }
+
+    .about_content .content_descr {
+        width: 55%;
+    }
+
+
+    .contact_content .form_input {
+        width: 350px;
+    }
+
+    .contact_content .content_item {
+        margin-bottom: 35px;
+    }
+
+
+    .contact_content .links_item:not(:last-child) {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container {
+        max-width: 669px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .hero_content .content_title {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .hero_content .content_descr {
+        width: 85%;
+        margin-bottom: 50px;
+    }
+
+    .hero_content .content_btn {
+        padding: 12px 42px;
+    }
+
+    .hero_content {
+        padding: 35px 35px;
+    }
+
+    .about_content {
+        flex-direction: column-reverse;
+    }
+
+    .about_content .content_descr {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_content .content_img {
+        margin-bottom: 20px;
+    }
+
+    .info_content {
+        flex-wrap: wrap;
+    }
+
+    .info_content .content_card {
+        width: 40%;
+    }
+
+    .info_content .content_card:nth-child(1) {
+        margin-bottom: 45px;
+    }
+
+    .info_content .content_card:nth-child(2) {
+        margin-bottom: 45px;
+    }
+
+    .contact_content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content_block:nth-child(2) {
+        margin-bottom: 50px;
+    }
+
+    .contact_content .form_input {
+        width: 350px;
+    }
+
+    .contact_content .content_item {
+        margin-bottom: 35px;
+    }
+
+
+    .contact_content .links_item:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    .work_content {
+        flex-wrap: wrap;
+    }
+
+    .work_content .content_card {
+        width: 45%;
+    }
+
+    .work_content .content_card:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .header_logo .logo_img {
+        width: 77px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        max-width: 290px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .hero_content {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero_content .content_title {
+        margin-bottom: 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .hero_content .content_descr {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 29px;
+    }
+
+    .info_title {
+        text-align: center;
+    }
+
+    .info_content .content_card {
+        width: 100%;
+    }
+
+    .info_content .content_card:not(:last-child) {
+        margin-bottom: 45px;
+    }
+
+    .info_content .content_img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact_content .form_input {
+        width: 250px;
+    }
+
+    .links_item svg {
+        width: 45px;
+        height: 40px;
+    }
+
+    .footer_content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .content_logo {
+        margin-bottom: 30px;
+    }
+
+    .work_content .content_card {
+        width: 100%;
+    }
+
+    .header_container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .header_burger {
+        display: block;
+    }
+}
